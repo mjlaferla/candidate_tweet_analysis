@@ -1,10 +1,11 @@
-#U.S. Politcal Candidate Tweet Analysis
+# U.S. Politcal Candidate Tweet Analysis
+
 This project was a look at the tweets of the various potential U.S. 2020 democratic candidates as well as current U.S. president Donald Trump as of Feb 26, 2020. The project took into account the last 1000 tweets from each of the seven candidates and evaluated theirr comments to establish the hierarchy of the political issues they were advocating for, as well as some of the most common phrases used to describe these issues.
 
 Prerequisites
 For this project, most all of the data extraction, cleaning, manipulation, and analysis was done using python version 3.7.3. The data was sourced from the twitter api for which you can apply for developer permissions, and using the free Tableau Public visualization software for the final interactive visual product that you can find here: https://public.tableau.com/profile/mitchell.joseph.laferla#!/vizhome/TweeterinChief_15826376792510/Dashboard1
 
-#Instructions
+## Instructions
 
 Part 1: Data Extraction
 The data was extracted via the twitter api. You have to apply for developer permissions to recieve access to the API which you can do here: https://developer.twitter.com/en/apply-for-access. I used tweepy to navigate the API, which is a really easy to use python library. I returned the data and put it into a pandas dataframe, however, it automatically returns json per usual. 
@@ -76,11 +77,11 @@ Step 4: Data visualization
 Using Tableau Public which is the free version of a great data viz software which I highly recommend, I was apply to create a lovely visual to represent my findings for others to explore. The viz can be found here: https://public.tableau.com/profile/mitchell.joseph.laferla#!/vizhome/TweeterinChief_15826376792510/Dashboard1
 
 
-Built With
+## Built With
 Twitter API - API for data source
 Tweepy - Easy to use python library for acessing the Twitter API
 NLTK - Python library for text cleaning, and analysis
 Tableau Public - Free data visualization software
 
-Authors
+## Authors
 Mitchell Laferla - mitchell@laferla.us - https://public.tableau.com/profile/mitchell.joseph.laferla#!/
